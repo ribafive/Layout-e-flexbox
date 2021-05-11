@@ -1,0 +1,46 @@
+body,ul,li,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none; /*retira o sublinhado ou qualquer decoraçao "none"*/
+    color: white;
+    
+}
+
+.header{
+    background-color: #1d1e20;
+    display: flex; /*fica um item ao lado do outro... ao invez de "em baixo"*/
+    flex-wrap: wrap;/*quanto a tela for bem pequena ela alinha os itens pra baixo*/
+    justify-content: space-between;/*cria um espaçamento, ou justifica... igual o word*/
+    padding: 20px;/*só pra dar um espaço da "tela"*/
+    align-items: center; /*logo ficou alinhado ao centro*/
+    background: #1d1e20;
+
+}
+
+.h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+/*CSS Flexbox 1*/
+
+
